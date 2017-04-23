@@ -7,7 +7,7 @@ public class JSONUtils {
 
 	// flags to identify the kind of json response on client side
 	private static final String FLAG_SELF = "self", FLAG_NEW = "new",
-			FLAG_MESSAGE = "message", FLAG_EXIT = "exit";
+			FLAG_MESSAGE = "message", FLAG_EXIT = "exit", FLAG_CARD = "card";
 
 	public JSONUtils() {
 	}
@@ -100,4 +100,24 @@ public class JSONUtils {
 
 		return json;
 	}
+	
+	public String getCardMessage(String sessionId, String name, String suit, String owner) {
+		String json = null;
+		
+		try {
+			JSONObject obj = new JSONObject();
+			obj.put("flag", FLAG_CARD);
+			obj.put("sessionId", sessionId);
+			obj.put("name", name);
+			obj.put("suit", suit);
+			obj.put("owner", owner);
+			
+			json = obj.toString();
+		} catch (JSONException e) {
+			e.printStackTrace();
+		}
+		
+		return json;
+	}
+	
 }
