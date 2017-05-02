@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EE360PChatroom</string>
+    <string name="title">Chatroom for SimpleJack</string>
+    <string name="author_name">Team Rocket</string>
+    <string name="author_url">www.blastingoffagain.com</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="btn_join">JOIN</string>
+    <string name="btn_send">Send</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidwebsocketsmaster/androidwebsocketsmaster.iml" filepath="$PROJECT_DIR$/androidwebsocketsmaster/androidwebsocketsmaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stupidconcurrent2 2.iml" filepath="$PROJECT_DIR$/stupidconcurrent2 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webMobileGroupChat/webMobileGroupChat.iml" filepath="$PROJECT_DIR$/webMobileGroupChat/webMobileGroupChat.iml" />
+    </modules>
+  </component>
+</project>
